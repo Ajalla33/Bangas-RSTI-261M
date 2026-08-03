@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60rem;
+}
+
+@import url(.roboto-<uniquifier> {
+ font-family: "Roboto", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-variation-settings: "wdth" 100;
+});
+
+body {
+    font-family: 'Roboto', sans-serif
+}
+
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    position: relative;
+    left: 0.3rem;
+}
+
+.éosguri {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+svg {
+    fill: #fbffff;
+    height: 3.5rem;
+    width: 20.5rem;
+    justify-content: center;
+    position: relative;
+    right: 0.5rem
+}
+
+h1 {
+    color: #fbffff;
+    font-weight: 800;
+    text-align: center;
+    font-size: 2.7rem;
+    position: relative;
+    right: 0.5rem;
+}
+
+h3 {
+    color: #fbffff;
+    font-weight: bold;
+    font-size: 1rem
+}
+
+#E-mail {
+    width: 20.4rem;
+    font-size: 0.83rem;
+    padding: 0.5rem;
+}
+
+#e-mail {
+    height: 2.80rem;
+    width: 20.2rem;
+    border-radius: 0.2rem;
+    border: 1px solid #7d7d7d;
+    background-color: #121212;
+    box-shadow: none;
+    position: relative;
+    left: 0.2rem;
+}
+
+.botou {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+}
+
+.button {
+    background-color: #1ed760;
+    border: 1px solid #7d7d7d;
+    font-size: 1rem;
+    padding: 8px 8px;
+    border-radius: 10rem;
+    font-weight: bold;
+    height: 3.2rem;
+    width: 20rem;
+}
+
+p {
+    color: #fbffff;
+    text-align: center;
+    font-weight: 700;
+}
+
+#telefone {
+    background-color: #121212;
+    color: #fbffff;
+}
+
+.dois {
+    background-color: #121212;
+    color: #fbffff;
+    border: 1px solid #7d7d7d;
+    font-size: 0.97rem;
+    padding: 8px 8px;
+    border-radius: 10rem;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.2rem;
+    width: 20rem;
+}
+
+#telefone {
+    background-color: #121212;
+    color: #fbffff;
+    border: 1px solid #7d7d7d;
+    font-size: 0.97rem;
+    padding: 8px 8px;
+    border-radius: 10rem;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 20rem;
+    text-align: center;
+}
+
+.icon {
+    position: absolute;
+    left: 1rem;
+    height: 1.8rem;
+    width: 1.5rem;
+}
+
+.icone {
+    position: absolute;
+    left: 1rem;
+    width: 1.5rem;
+    height: 1.2rem;
+}
+
+#cone {
+    position: absolute;
+    left: 0.9rem;
+    width: 1.6rem;
+    height: 1.4rem;
+}
+
+#ye {
+    position: absolute;
+    left: 0.9rem;
+    width: 1.6rem;
+    height: 1.4rem;
+}
+
+#pa {
+    color: #7d7d7d;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+#paporeto {
+    color: #7d7d7d;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+a {
+    color: #7d7d7d;
+}
