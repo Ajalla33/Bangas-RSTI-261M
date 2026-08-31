@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cuiudo Advogados</title>
+    <link rel="stylesheet" href="advogado.css">
+</head>
+<header class="header">
+    <img class="logo" src="Advogados.png">
+    <div>
+    <input type="checkbox" id="header-checkbox">
+    <label for="header-checkbox" class="header-burger-menu">
+        ☰
+    </label>
+    <nav class="section-nav">
+        <a href="#section-home" class="texto">Home</a>
+        <a href="#section-história" class="texto">História</a>
+        <a href="#section-áreasdeatuação" class="texto" id="áreasdeatuação">Áreas de Atuação</a>
+        <a href="#section-contato" class="texto">Contato</a>
+    </nav>
+    </div>
+    <script>
+    const hamburger = document.querySelector(".header-burger-menu");
+    const menu = document.querySelector(".section-nav");
+
+    hamburger.addEventListener("click", () => {
+        menu.classList.toggle("ativo");
+    });
+</script>
+</header>
+
+<body>
+    <section class="home">
+        <div class="home-texto">
+            <h1>Cuiudo advogados</h1>
+            <h2>Excelência jurídica, compromisso com seus direitos.</h2>
+            <p>
+                Atuamos com ética, estratégia e dedicação na defesa dos interesses
+                de nossos clientes. Oferecemos soluções jurídicas personalizadas,
+                buscando sempre segurança, transparência e os melhores resultados.
+            </p>
+        </div>
+        <div class="botão">
+            <button class="botoes" id="b1">Conheça nosso escritório</button>
+            <button class="botoes" id="b2">Entre em contato</button>
+        </div>
+    </section>
+    <section class="história">
+        <div>
+            <h1 id="um">Nossa História</h1>
+            <h2 id="dois">Compromisso que constrói confiança</h2>
+            <div class="parágrafo">
+                <p>
+                    A Cuiudo Advogados nasceu com o propósito de oferecer uma
+                    advocacia baseada em confiança, ética e compromisso com seus
+                    clientes. Desde sua criação, o escritório busca compreender
+                    cada caso de forma individual, desenvolvendo estratégias
+                    jurídicas personalizadas e eficientes.
+                </p>
+
+                <p>
+                    Ao longo de sua trajetória, a Cuiudo Advogados consolidou uma
+                    atuação pautada pela responsabilidade, transparência e
+                    excelência profissional.
+                </p>
+
+                <p>
+                    Acreditamos que uma boa advocacia vai além de conhecer as leis:
+                    é compreender pessoas, proteger direitos e buscar soluções.
+                </p>
+            </div>
+            <img id="balança" src="Balança.jpg" alt="Balança de justiça">
+        </div>
+    </section>
+    <section class="áreasdeatuação">
+        <div class="navega">
+            <button id="bb1" class="botoes2">
+                <div class="img">
+                    <img src="Penal.jpg" alt="Direito Penal" id="imgpenal">
+                </div>
+                <div id="penal">
+                    <h3>Direito Penal</h3>
+                    <p>Atuação na defesa de pessoas envolvidas em
+                        investigações e processos
+                        criminais, sempre com estratégia, ética e respeito aos direitos fundamentais.</p>
+                </div>
+            </button>
+            <button id="bb2" class="botoes2">
+                <div class="img">
+                    <img src="Trabalhista.jpg" alt="Direito Penal" id="imgtrabalhista">
+                </div>
+                <div id="trabalhista">
+                    <h3>Direito Trabalhista</h3>
+                    <p>Atuação em questões relacionadas às
+                        relações de
+                        trabalho, buscando garantir o cumprimento dos direitos e deveres de empregados e empregadores.
+                    </p>
+                </div>
+            </button>
+            <button id="bb3" class="botoes2">
+                <div class="img">
+                    <img src="Imobiliario.jpg" alt="Direito Imobiliário" id="imgimobiliario">
+                </div>
+                <div id="imobiliario">
+                    <h3>Direito Imobiliário</h3>
+                    <p>Atuação em questões relacionadas a imóveis,
+                        contratos,
+                        compra e venda, locações e regularização imobiliária, oferecendo segurança jurídica em cada
+                        negociação.</p>
+                </div>
+            </button>
+        </div>
+    </section>
+
+    <section>
+        <div class="div-contato">
+            <h2 class="contato" id="title">Contato</h2>
+            <form class="contato" action="#" method="post">
+                <label class="text" for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label class="text" for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label class="text" for="telefone">Telefone/Celular:</label>
+                <input type="number" id="telefone" name="telefone" required>
+
+                <label class="text" for="mensagem">Mensagem:</label>
+                <input type="text" id="mensagem" name="mensagem" required>
+
+
+                <input id="enviar" type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
