@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components/calculation.css">
+     <link rel="stylesheet" href="css/components/operators.css">
+    <script src="calculadora.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <section>
+    <div class="carrossel">
+        <div class="div-calculation">
+            <input class="input" type="number" id="firstnumber">
+            <span id="selected-operator"></span>
+            <input class="input" type="number" id="secondnumber">
+            <div class="div-button">
+                <button id="calcular">Calcular</button>
+            </div>
+        </div>
+        <div class="div-result">
+            <h1 class="result">0</h1>
+        </div>
+        <div class="div-operators">
+            <button class="operators" id="plus">+</button>
+            <button class="operators" id="minus">-</button>
+            <button class="operators" id="times">*</button>
+            <button class="operators" id="division">/</button>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
