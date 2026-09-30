@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background-color: var(--card);
+    border-top: 1px solid var(--border);
+    color: var(--text-secondary);
+}
+
+.footer a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    color: var(--primary-hover);
+}
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}

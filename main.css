@@ -1,0 +1,28 @@
+
+#projetos {
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+    padding: 60px 0;
+
+    text-align: center;
+}
+
+#projetos h2 {
+    margin-bottom: 30px;
+
+    font-size: 2.5rem;
+    color: #F8FAFC;
+}
+
+@import url("./base/reset.css");
+@import url("./base/global.css");
+
+@import url("./components/header.css");
+@import url("./components/apresentacao.css");
+@import url("./components/sobre.css");
+@import url("./components/formacao.css");
+@import url("./components/tecnologias.css");
+@import url("./components/carrossel.css");
+@import url("./components/contato.css");

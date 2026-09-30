@@ -1,0 +1,62 @@
+header {
+    position: sticky;
+    top: 0;
+
+    width: 100%;
+
+    padding: 20px 8%;
+
+    background-color: #0F172A;
+
+    border-bottom: 1px solid #334155;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 35px;
+}
+
+nav a {
+    position: relative;
+
+    color: #94A3B8;
+
+    font-size: 1rem;
+    font-weight: 500;
+
+    text-decoration: none;
+
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #F8FAFC;
+}
+nav a::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: -8px;
+
+    width: 0;
+    height: 2px;
+
+    background-color: #3B82F6;
+
+    transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}

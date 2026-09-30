@@ -1,0 +1,105 @@
+.formacao {
+    width: 85%;
+    max-width: 1000px;
+
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.formacao h2 {
+    margin-bottom: 40px;
+
+    text-align: center;
+
+    font-size: 2.5rem;
+
+    color: var(--text);
+}
+
+.formacao-card {
+    display: flex;
+    align-items: center;
+
+    gap: 25px;
+
+    padding: 30px;
+
+    background-color: var(--card);
+
+    border: 1px solid var(--border);
+    border-radius: 16px;
+
+    transition: 0.3s;
+}
+
+.formacao-card:hover {
+    border-color: var(--primary);
+
+    transform: translateY(-3px);
+}
+
+.formacao-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 70px;
+    height: 70px;
+
+    background-color: var(--background);
+
+    border-radius: 50%;
+
+    font-size: 2rem;
+}
+
+.formacao-info h3 {
+    margin-bottom: 8px;
+
+    color: var(--text);
+
+    font-size: 1.4rem;
+}
+
+.instituicao {
+    margin-bottom: 5px;
+
+    color: var(--primary);
+
+    font-weight: bold;
+}
+
+.periodo {
+    margin-bottom: 15px;
+
+    color: var(--text-secondary);
+}
+
+.formacao-info > p:last-child {
+    color: var(--text-secondary);
+
+    line-height: 1.6;
+}
+
+
+
+@media (max-width: 600px) {
+
+    .formacao {
+        width: 90%;
+        padding: 60px 0;
+    }
+
+    .formacao h2 {
+        font-size: 2rem;
+    }
+
+    .formacao-card {
+        flex-direction: column;
+
+        text-align: center;
+
+        padding: 25px;
+    }
+
+}
